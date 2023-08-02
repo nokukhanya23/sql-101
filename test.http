@@ -1,0 +1,12 @@
+POST http://localhost:3008/api/greetings
+Content-Type: application/json
+
+{
+    "langage": "Tsonga",
+    "greeting": "Avxeni"
+}
+
+
+###
+
+GET http://localhost:3008/api/greetings
